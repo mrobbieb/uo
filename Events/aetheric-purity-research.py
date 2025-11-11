@@ -3,8 +3,8 @@
 Find the combination of three values whose mean is closest to 7.0.
 
 Usage:
-  python find_best_mean7.py 1.356 7.522 5.498 9.1 2.0
-  python find_best_mean7.py "[1.356, 7.522, 5.498, 9.1, 2.0]"
+  python aetheric-purity-research.py 1.356 7.522 5.498 9.1 2.0
+  python aetheric-purity-research.py "[1.356, 7.522, 5.498, 9.1, 2.0]"
 
 Notes:
 - Accepts either space-separated numbers or a single JSON-like array.

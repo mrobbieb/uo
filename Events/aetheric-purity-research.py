@@ -40,7 +40,7 @@ def parse_values(argv):
         sys.exit(f"All inputs must be numbers (or a JSON array of numbers): {e}")
 
 def warn_out_of_range(values):
-    bad = [v for v in values if not (1.0 <= v <= 14.0)]
+    bad = [v for v in values if not (0.001 <= v <= 14.0)]
     if bad:
         print(f"Warning: these values are outside the 1.0–14.0 range: {bad}", file=sys.stderr)
 
